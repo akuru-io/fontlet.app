@@ -6,8 +6,8 @@ import img from './Assets/image/bg.jpg';
 import ReactSVG from 'react-svg';
 import fontletLogo from './Assets/image/fontCase_round_background_animated.svg'
 import fl1 from './Assets/image/fl1.png';
-import fl2 from './Assets/image/fl2.png';
-import fl3 from './Assets/image/fl4.png';
+
+import fl4 from './Assets/image/hhh.png';
 
 import icon1 from './Assets/image/1.png';
 import icon2 from './Assets/image/2.png';
@@ -96,7 +96,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 padding:10px;
-border-radius:2px;
+border-radius:2px;fl4
   &:hover {
     background: #f2f2f2;
   }
@@ -149,12 +149,28 @@ font-weight:bold;
 `;
 
 const DownloadWrapper =styled.div`
-margin-top:100px;
+margin-top:20px;
 display:flex;
 width:100%;
 justify-content:center;
 align-items:center;
 `;
+
+const AboutWrapper = styled.div`
+display:flex;
+flex-direction:row;
+align-items:center;
+width:55%;
+padding-top:80px;
+`;
+
+const About= styled.p`
+font-size:19px;
+color:#f7f7f7;
+text-align:center;
+font-family: sans-serif;
+`;
+
 
 class App extends Component {
   render() {
@@ -187,6 +203,19 @@ Right now Fontcase is in its early stages, but you can register now using your e
          </ImageWrapper>
 
   
+
+
+<AboutWrapper>
+<About>
+Fontcase is a free software project led by a community who loves Free/Libre and Open source fonts. Initial development is supported by Mooniak, LeafyCode and HostGrid.
+Credits Kasun Indi, Kosala Senevirathne, Malith Widanapathirana, Pathum Egodawatta, Pubudu Kodikara, Rajitha Manamperi, Sachintha Kodagoda
+
+
+</About>
+</AboutWrapper>
+
+
+
 
    <DownloadWrapper>
       <Download>DOWNLOAD</Download>
