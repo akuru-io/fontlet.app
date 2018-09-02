@@ -210,7 +210,7 @@ class App extends Component {
         <AboutWrapper>
           <About>
             Fontlet is a free software project led by a community who loves libre fonts. <br></br><br></br>
-            Fontlet is in its early ALPHA stage and might have errors and bugs. You can install and register on the app to recive more updates on the development.
+            Fontlet is in its early ALPHA stage and might have errors and bugs. You can install and register on the app to receive more updates on the development.
 
 </About>
         </AboutWrapper>
