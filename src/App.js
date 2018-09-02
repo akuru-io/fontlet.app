@@ -231,9 +231,9 @@ class App extends Component {
 
 
           <IconWrapper>
-            <Button1 href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-Setup-0.0.28-alpha.exe"><Icon src={icon1} /></Button1>
-            <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha-x86_64.AppImage"><Icon src={icon2} /></Button>
-            <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha.dmg"><Icon src={icon3} /></Button>
+            <Button1 href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-Setup-0.0.29-alpha.exe"><Icon src={icon1} /></Button1>
+            <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha-x86_64.AppImage"><Icon src={icon2} /></Button>
+            <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha.dmg"><Icon src={icon3} /></Button>
 
           </IconWrapper>
 
