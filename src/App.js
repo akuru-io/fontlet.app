@@ -17,7 +17,7 @@ import icon3 from './Assets/image/3.png';
 const Wrapepr = styled.div`
 width:100%;
 height:100%;
-background-color: orange;
+background-color: white;
 margin:0px;
 padding:0px;
 /* background-image: url(${img}); */
@@ -26,7 +26,7 @@ justify-content:center;
 align-items:center;
 flex-direction:column;
 `;
- 
+
 const LogoWrapper = styled.div`
 margin-top:100px;
 display:flex;
@@ -58,8 +58,7 @@ align-items:center;
 
 
 const Image = styled.img`
-height:100%;
-border:2px solid #e0d8d8;
+height:60vw;
 border-radius:2px;
 `;
 
@@ -69,7 +68,7 @@ width:100%;
 
 const Text= styled.p`
 font-size:19px;
-color:#f7f7f7;
+color:#222;
 text-align:center;
 font-family: sans-serif;
 `;
@@ -137,7 +136,7 @@ align-items:center;
 const Copyright = styled.a`
 font-family: sans-serif;
 text-decoration: none;
-color:#f7f7f7;
+color:#222;
 font-size:15px;
 `;
 
@@ -166,7 +165,7 @@ padding-top:80px;
 
 const About= styled.p`
 font-size:19px;
-color:#f7f7f7;
+color:#222;
 text-align:center;
 font-family: sans-serif;
 `;
@@ -188,28 +187,28 @@ class App extends Component {
 
             <TextWrapper>
               <Text>
-              Fontcase brings you the latest and greatest free and open source fonts right to your computer! Fontcase keeps your fonts fresh by automatically updating them to fit the latest versions and even try out Beta versions before anybody else does!
+              Fontlet brings you the latest and greatest free and open source fonts right to your computer!
 
-Right now Fontcase is in its early stages, but you can register now using your email to get updates.
+              Also Fontlet will keep your fonts fresh by automatically updating them to fit the latest versions and even try out Beta versions before anybody else does!
+
              </Text>
             </TextWrapper>
-             
-             
+
+
           <ImageWrapper>
-      
+
            <Image src={fl1}/>
-             
-         
+
+
          </ImageWrapper>
 
-  
+
 
 
 <AboutWrapper>
 <About>
-Fontcase is a free software project led by a community who loves Free/Libre and Open source fonts. Initial development is supported by Mooniak, LeafyCode and HostGrid.
-Credits Kasun Indi, Kosala Senevirathne, Malith Widanapathirana, Pathum Egodawatta, Pubudu Kodikara, Rajitha Manamperi, Sachintha Kodagoda
-
+Fontlet is a free software project led by a community who loves libre fonts. <br></br><br></br>
+Fontlet is in its early ALPHA stage and might have errors and bugs. You can install and register on the app to recive more updates on the development.
 
 </About>
 </AboutWrapper>
@@ -221,29 +220,33 @@ Credits Kasun Indi, Kosala Senevirathne, Malith Widanapathirana, Pathum Egodawat
       <Download>DOWNLOAD</Download>
       </DownloadWrapper>
 
- 
+
           <ImageWrappe2>
-    
 
-   
 
-       
-    
+
+
+
+
       <IconWrapper>
-        <Button1 href="https://github.com/fontcase/fontcase-explorer/releases"><Icon src={icon1}/></Button1>
-        <Button href="https://github.com/fontcase/fontcase-explorer/releases"><Icon src={icon2}/></Button>
-        <Button href="https://github.com/fontcase/fontcase-explorer/releases"><Icon src={icon3}/></Button>
+        <Button1 href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-Setup-0.0.28-alpha.exe"><Icon src={icon1}/></Button1>
+        <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha-x86_64.AppImage"><Icon src={icon2}/></Button>
+        <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha.dmg"><Icon src={icon3}/></Button>
 
 </IconWrapper>
 
 
     </ImageWrappe2>
 
-      
 
-         
+
+
      <Footer>
-<Copyright href="https://leafycode.com/">Made with love by LeafyCode & Mooniak</Copyright>
+<Copyright href="https://leafycode.com/">
+
+  Initial development of Fontlet is supported by Mooniak, LeafyCode and HostGrid.
+
+  Made with love by LeafyCode & Mooniak</Copyright>
 
      </Footer>
       </Wrapepr>
@@ -252,5 +255,3 @@ Credits Kasun Indi, Kosala Senevirathne, Malith Widanapathirana, Pathum Egodawat
 }
 
 export default App;
-
-
