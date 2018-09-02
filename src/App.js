@@ -66,7 +66,7 @@ const Content = styled.div`
 width:100%;
 `;
 
-const Text= styled.p`
+const Text = styled.p`
 font-size:19px;
 color:#222;
 text-align:center;
@@ -129,15 +129,17 @@ height:100px;
 width:90%;
 display:flex;
 margin-top:100px;
-justify-content:flex-end;
-align-items:center;
+text-align:center;
+align-items: center;
+  flex-direction: column;
 `;
 
-const Copyright = styled.a`
+const Copyright = styled.span`
 font-family: sans-serif;
 text-decoration: none;
 color:#222;
 font-size:15px;
+
 `;
 
 
@@ -147,7 +149,7 @@ color:white;
 font-weight:bold;
 `;
 
-const DownloadWrapper =styled.div`
+const DownloadWrapper = styled.div`
 margin-top:20px;
 display:flex;
 width:100%;
@@ -163,7 +165,7 @@ width:55%;
 padding-top:80px;
 `;
 
-const About= styled.p`
+const About = styled.p`
 font-size:19px;
 color:#222;
 text-align:center;
@@ -175,80 +177,80 @@ class App extends Component {
   render() {
     return (
       <Wrapepr>
-      <LogoWrapper>
-            <ReactSVG
+        <LogoWrapper>
+          <ReactSVG
             src={fontletLogo}
             evalScripts="once"
             svgStyle={{ width: 170 }}
           />
-         </LogoWrapper>
+        </LogoWrapper>
 
 
 
-            <TextWrapper>
-              <Text>
-              Fontlet brings you the latest and greatest free and open source fonts right to your computer!
+        <TextWrapper>
+          <Text>
+            Fontlet brings you the latest and greatest free and open source fonts right to your computer!
 
-              Also Fontlet will keep your fonts fresh by automatically updating them to fit the latest versions and even try out Beta versions before anybody else does!
+            Also Fontlet will keep your fonts fresh by automatically updating them to fit the latest versions and even try out Beta versions before anybody else does!
 
              </Text>
-            </TextWrapper>
+        </TextWrapper>
 
 
-          <ImageWrapper>
+        <ImageWrapper>
 
-           <Image src={fl1}/>
-
-
-         </ImageWrapper>
+          <Image src={fl1} />
 
 
+        </ImageWrapper>
 
 
-<AboutWrapper>
-<About>
-Fontlet is a free software project led by a community who loves libre fonts. <br></br><br></br>
-Fontlet is in its early ALPHA stage and might have errors and bugs. You can install and register on the app to recive more updates on the development.
+
+
+        <AboutWrapper>
+          <About>
+            Fontlet is a free software project led by a community who loves libre fonts. <br></br><br></br>
+            Fontlet is in its early ALPHA stage and might have errors and bugs. You can install and register on the app to recive more updates on the development.
 
 </About>
-</AboutWrapper>
+        </AboutWrapper>
 
 
 
 
-   <DownloadWrapper>
-      <Download>DOWNLOAD</Download>
-      </DownloadWrapper>
+        <DownloadWrapper>
+          <Download>DOWNLOAD</Download>
+        </DownloadWrapper>
 
 
-          <ImageWrappe2>
-
-
-
-
-
-
-      <IconWrapper>
-        <Button1 href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-Setup-0.0.28-alpha.exe"><Icon src={icon1}/></Button1>
-        <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha-x86_64.AppImage"><Icon src={icon2}/></Button>
-        <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha.dmg"><Icon src={icon3}/></Button>
-
-</IconWrapper>
-
-
-    </ImageWrappe2>
+        <ImageWrappe2>
 
 
 
 
-     <Footer>
-<Copyright href="https://leafycode.com/">
 
-  Initial development of Fontlet is supported by Mooniak, LeafyCode and HostGrid.
+
+          <IconWrapper>
+            <Button1 href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-Setup-0.0.28-alpha.exe"><Icon src={icon1} /></Button1>
+            <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha-x86_64.AppImage"><Icon src={icon2} /></Button>
+            <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.28-alpha/FontLet-0.0.28-alpha.dmg"><Icon src={icon3} /></Button>
+
+          </IconWrapper>
+
+
+        </ImageWrappe2>
+
+
+
+
+        <Footer>
+          <Copyright >
+
+            Initial development of Fontlet is supported by <a href="http://mooniak.com/">Mooniak</a>, <a href="https://leafycode.com/">LeafyCode</a> and <a href="http://hostgrid.lk/">HostGrid</a>.
 
   Made with love by LeafyCode & Mooniak</Copyright>
 
-     </Footer>
+        </Footer>
       </Wrapepr>
     );
   }
