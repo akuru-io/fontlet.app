@@ -189,9 +189,11 @@ class App extends Component {
 
         <TextWrapper>
           <Text>
-            Fontlet brings you the latest and greatest free and open source fonts right to your computer!
+            Fontlet brings you the latest and greatest free and open source fonts right to your computer! <br ></br>
 
-            Also Fontlet will keep your fonts fresh by automatically updating them to fit the latest versions and even try out Beta versions before anybody else does!
+            Also Fontlet will keep your fonts fresh by automatically updating them to fit the latest versions and <br ></br> try out Beta versions before anybody else does!
+            <br ></br> <br ></br>
+            Fontlet is launching the Public Beta soon!Join our <a href="http://eepurl.com/dNegac">mailing list</a> and receive updates on the development.
 
              </Text>
         </TextWrapper>
@@ -209,9 +211,6 @@ class App extends Component {
 
         <AboutWrapper>
           <About>
-            Fontlet is a free software project led by a community who loves libre fonts. <br></br><br></br>
-            Fontlet is in its early ALPHA stage and might have errors and bugs. You can install and register on the app to receive more updates on the development.
-
 </About>
         </AboutWrapper>
 
@@ -230,12 +229,12 @@ class App extends Component {
 
 
 
-          <IconWrapper>
+          {/* <IconWrapper>
             <Button1 href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-Setup-0.0.29-alpha.exe"><Icon src={icon1} /></Button1>
             <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha-x86_64.AppImage"><Icon src={icon2} /></Button>
             <Button href="https://github.com/fontlet/fontlet-explorer/releases/download/v0.0.29-alpha/FontLet-0.0.29-alpha.dmg"><Icon src={icon3} /></Button>
 
-          </IconWrapper>
+          </IconWrapper> */}
 
 
         </ImageWrappe2>
@@ -246,9 +245,9 @@ class App extends Component {
         <Footer>
           <Copyright >
 
-            Initial development of Fontlet is supported by <a href="http://mooniak.com/">Mooniak</a>, <a href="https://leafycode.com/">LeafyCode</a> and <a href="http://hostgrid.lk/">HostGrid</a>.
-
-  Made with love by LeafyCode & Mooniak</Copyright>
+                       Fontlet is a free software project led by a community who loves libre fonts. <br></br><br></br>
+ Initial development of Fontlet is supported by <a href="http://mooniak.com/">Mooniak</a>, <a href="https://leafycode.com/">LeafyCode</a> and <a href="http://hostgrid.lk/">HostGrid</a>.
+</Copyright>
 
         </Footer>
       </Wrapepr>
